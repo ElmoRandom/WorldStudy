@@ -1,4 +1,5 @@
 nav{
+  position:sticky;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -40,6 +41,7 @@ nav ul{
   letter-spacing: 3px;
   font-size: 12px;
   margin:1vh;
+  z-index: inherit;
 }
 
 .burger{
@@ -62,7 +64,7 @@ nav ul{
 
 @media screen and (max-width:768px){
   body{
-      overflow-x: hidden;
+    overflow-x: hidden;
   }
   nav ul{
     position:absolute;
@@ -77,9 +79,10 @@ nav ul{
     width:50%;
     transform: translateX(110%);
     transition: transform 0.5s ease;
+    z-index: 1;;
   }
   .burger{
-      display:block;
+    display:block;
   }
 }
 .nav-active{
