@@ -1,0 +1,36 @@
+.bussiness{
+    width:100%;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.bussiness #container1{
+    width:100%;
+    justify-items: center;
+    padding: 8vh;
+}
+.bussiness h1{
+    display:block;
+    color:brown;
+    text-align: center;
+}
+
+.bussiness p{
+    text-align: justify;
+}
+
+.bussiness .container{
+    padding:5vh
+}
+
+.second div{
+    background-color: brown;
+}
+
+.second h1{
+    color:white;
+}
+
+.second p{
+    color:white;
+}

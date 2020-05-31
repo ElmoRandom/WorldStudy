@@ -2,7 +2,6 @@ function parrallax(element, distance, speed){
     const item = document.querySelector(element);
 
     item.style.transform = 'translateY(' + (speed * distance) +  'px)';
-    console.log(distance);
 }
 
 function parrallaxX(element, distance, speed){
@@ -21,5 +20,5 @@ window.addEventListener('scroll', function(){
         text.style.transform = 'translateY(60vh)' + ' translateX(' + (window.scrollY) + 'px)';
         elmo.style.transform = 'translateY(10vh)' + ' translateX(' + (window.scrollY) + 'px)';
     }
+    console.log(window.scrollY);
 });
-
