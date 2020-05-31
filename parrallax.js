@@ -15,7 +15,7 @@ var elmo = document.querySelector('#president');
 var text = document.querySelector('.screen-container h1');
 
 window.addEventListener('scroll', function(){
-    if(window.scrollY < 800){
+    if(window.scrollY < 565){
         parrallax('.screen-container', window.scrollY, 1);
         parrallax('nav', window.scrollY,1);
         text.style.transform = 'translateY(60vh)' + ' translateX(' + (window.scrollY) + 'px)';
