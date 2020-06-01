@@ -17,8 +17,8 @@ window.addEventListener('scroll', function(){
     if(window.scrollY < 565){
         parrallax('.screen-container', window.scrollY, 1);
         parrallax('nav', window.scrollY,1);
-        text.style.transform = 'translateY(60vh)' + ' translateX(' + (window.scrollY) + 'px)';
-        elmo.style.transform = 'translateY(10vh)' + ' translateX(' + (window.scrollY) + 'px)';
+        text.style.transform = 'translateY(70vh)' + ' translateX(' + (window.scrollY) + 'px)';
+        elmo.style.transform = 'translateY(20vh)' + ' translateX(' + (window.scrollY) + 'px)';
     }
-    console.log(window.scrollY);
+    //console.log(window.scrollY);
 });

@@ -28,7 +28,7 @@ body{
 #president{
     position: absolute;
     height: 48vh;;
-    transform: translateY(10vh);
+    transform: translateY(20vh);
 }
 
 .star{
@@ -59,7 +59,7 @@ body{
 
 .screen-container h1{
     position: absolute;
-    transform: translateY(60vh);
+    transform: translateY(70vh);
     color: white;
 }
 

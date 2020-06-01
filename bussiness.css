@@ -1,6 +1,6 @@
 .bussiness{
     width:100%;
-    min-height: 100vh;
+    min-height: 60vh;
     background-color: white;
 }
 
@@ -20,7 +20,13 @@
 }
 
 .bussiness .container{
-    padding:5vh
+    padding:10vh;
+    padding-top: 0vh;
+
+}
+
+.second{
+    background-color: brown;
 }
 
 .second div{
@@ -33,4 +39,20 @@
 
 .second p{
     color:white;
+}
+
+.third{
+    background-color: black;
+}
+
+.third h1{
+    color: white;
+}
+
+.third{
+    background-color: black;
+}
+
+.third p{
+    color: white;
 }
