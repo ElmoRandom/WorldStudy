@@ -3,7 +3,6 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Poppins', sans-serif;
-
 }
 
 
@@ -47,6 +46,10 @@ body{
     background-color: grey;
 }
 
+blockquote{
+    text-indent:5vh;
+}
+
 .information h1{
     color: white;
     display: block;
@@ -63,3 +66,11 @@ body{
     color: white;
 }
 
+.cite p{
+    text-align: left;
+    width: 60%;
+}
+
+.container{
+    align-items: center;
+}

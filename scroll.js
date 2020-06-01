@@ -34,6 +34,15 @@ buttonFirst.addEventListener('click', function(){
     }
 )
 
+var divFirst = document.querySelector('#firstDiv');
+divFirst.addEventListener('click', function(){
+        //console.log(document.body.clientWidth);
+        
+        smoothScroll('#refFir', 3300);
+        console.log("here");
+    }
+)
+
 var buttonSecond = document.querySelector('.secondBtn');
 buttonSecond.addEventListener('click', function(){
         const nav = document.querySelector('nav ul');
@@ -43,10 +52,29 @@ buttonSecond.addEventListener('click', function(){
     }
 )
 
+var divSecond = document.querySelector('#secondDiv');
+divSecond.addEventListener('click', function(){
+        //console.log(document.body.clientWidth);
+        
+        smoothScroll('#refSec', 3000);
+        console.log("here");
+    }
+)
+
+
 var buttonThird = document.querySelector('.thirdBtn');
 buttonThird.addEventListener('click', function(){
         const nav = document.querySelector('nav ul');
         if(document.body.clientWidth < 768) nav.classList.toggle('nav-active');
+        smoothScroll('#refTh', 3000);
+        console.log("here");
+    }
+)
+
+var divThird = document.querySelector('#thirdDiv');
+divThird.addEventListener('click', function(){
+        //console.log(document.body.clientWidth);
+        
         smoothScroll('#refTh', 3000);
         console.log("here");
     }
